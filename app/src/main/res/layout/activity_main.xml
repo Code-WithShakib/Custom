@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:scaleType="center"
+        android:src="@drawable/splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="The beauty of Zakat \ln lies in its ability to
+        transform lives."
+        android:textColor="#070719"
+        android:textSize="36sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:text="যারা আল্লাহর পথে তাদের ধন-সম্পদ ব্যয় করে (سُبْحَانَهُ وَتَعَالَى) তাদের উদাহরণ হল একটি বীজের মত যা থেকে সাতটি শীষ জন্মায়; প্রতিটি শীষে রয়েছে একশত দানা। আর আল্লাহ যাকে ইচ্ছা তার পুরস্কার বহুগুণ করে দেন। আল্লাহ সর্বব্যাপী, সর্বজ্ঞ।- আল বাকারা 2:261.......!"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#737373"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <Button
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#008953"
+        android:fontFamily="sans-serif-medium"
+        android:text="Get Started" />
+
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="‘Hello User Welcome,"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#737373"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
